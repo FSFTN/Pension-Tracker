@@ -7,13 +7,28 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="#">Link1</a></li>
-  <li role="presentation"><a href="#">Link2</a></li>
-  <li role="presentation"><a href="#">Link3</a></li>
-  <li role="presentation"><a href="#">Link4</a></li>
-</ul>
-<img src="India-Post-LOGO.jpg" alt="" style="width:304px;height:228px">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      <span class="glyphicon glyphicon-envelope" href="#"></span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li></div>
+</ul></div></nav>
+<center>
+<%= image_tag("India-Post-LOGO.jpg", height: "150") %>
+</center>
 <%= yield %>
 
 </body>

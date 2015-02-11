@@ -3,27 +3,42 @@
 <%= form_for :employee do |f| %>
   <p>
     <%= f.label :PRAN_Number %><br>
-    <%= f.text_field :text %>
+    <%= f.text_field :PRAN_Number %>
+  </p>
+  <p>
+    <%= f.label :Employee_ID %><br>
+    <%= f.text_area :Employee_Name %>
   </p>
  
   <p>
     <%= f.label :Employee_Name %><br>
-    <%= f.text_area :text %>
+    <%= f.text_area :Employee_Name %>
   </p>
   <p>
-    <%= f.label :Employee_ID %><br>
-    <%= f.text_area :text %>
+    <%= f.label :DOB %><br>
+    <%= f.text_area :DOB %>
   </p>
+  <p>
+    <%= f.label :Designation %><br>
+    <%= f.text_area :Designation %>
+  </p>
+  <p>
+    <%= f.label :Father_Name %><br>
+    <%= f.text_area :Father_Name %>
+  </p>
+  
   <p>
     <%= f.label :NLCC %><br>
-    <%= f.text_area :text %>
+    <%= f.text_area :NLCC %>
   </p>
  <p>
     <%= f.label :Remarks %><br>
-    <%= f.text_area :text %>
+    <%= f.text_area :Remarks %>
   </p>
-  <p>
-    <%= f.submit %>
-  </p>
+  <div class="actions">
+    <%= f.submit "Enter", class: 'btn btn-success' %>
+  
+    <%= f.submit "Back", class:  'btn btn-success' %>
+  </div>
 </center>
 <% end %>

@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
-  <title>PensionTracker</title>
+  <title>Pension Tracker</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -9,27 +9,150 @@
 <body>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-   <div class="navbar-header">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
-      <span class="glyphicon glyphicon-envelope" href="#"></span></a>
+      <a class="navbar-brand" href="#">Postall App</a>
     </div>
+
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li ><a href="#">About Us</a></li>
-        
-</ul></div></nav>
-<center>
-<%= image_tag("India-Post-LOGO.jpg", height: "150") %>
-</center>
-<%= yield %>
 
+        <li><a data-toggle="modal" data-target="#loginModal" href="#">Login</a>
+          <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Login Form</h4>
+            </div>
+
+            <div class="modal-body">
+                <!-- The form is placed inside the body of modal -->
+                <form id="loginForm" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Username</label>
+                        <div class="col-xs-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Password</label>
+                        <div class="col-xs-5">
+                            <input type="password" class="form-control" name="password" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-5 col-xs-offset-3">
+                            <button type="submit" class="btn btn-default">Login1</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div></li>
+
+
+
+
+        <li><a data-toggle="modal" data-target="#loginModal1" href="#">SignUp</a>
+        <div class="modal fade" id="loginModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">SignUp Form</h4>
+            </div>
+
+            <div class="modal-body">
+                <!-- The form is placed inside the body of modal -->
+                <form id="loginForm" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Username</label>
+                        <div class="col-xs-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">E-mail Id</label>
+                        <div class="col-xs-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Mobile No.</label>
+                        <div class="col-xs-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Password</label>
+                        <div class="col-xs-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">Re Enter Password</label>
+                        <div class="col-xs-5">
+                            <input type="password" class="form-control" name="password" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-5 col-xs-offset-3">
+                            <button type="submit" class="btn btn-default">SignUp</button>
+                        </div>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </li>
+
+        <li><a data-toggle="modal" data-target="#loginModal3" href="#" href="#">About Us</a>
+        <div class="modal fade" id="loginModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Some Content's</h4>
+            </div>
+
+            <div class="modal-body">
+                <!-- The form is placed inside the body of modal -->
+                <form id="loginForm" method="post" class="form-horizontal">
+                    
+                    <div class="form-group">
+                        <p>abfjabfksabfjkbfjkbajk fnasbfkjabfkjasbf.j bkfbkjafbbkasbfkasbfkjabfkjb kbfkb akbfkabskfb askf</p>
+                        </div>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<center>
+<%= image_tag("India-Post-LOGO.jpg", height: "450" , width: "900") %>
+</center>
 </body>
 </html>

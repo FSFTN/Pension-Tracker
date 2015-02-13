@@ -19,7 +19,7 @@ Hello,
 
 4. After installing Ruby on Rails you have to clone the project from git 
 	
-	git clone <cloned url>
+	git clone cloned-url
   
     it will take a minute to clone
 5. Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed for the project

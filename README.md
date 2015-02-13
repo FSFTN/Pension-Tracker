@@ -2,7 +2,8 @@ Hello,
 
   This Project is created for Postal Department to maintain the complete database of Employees regarding their Salary allounces.
   Here we created the project in
-      Ruby on Rails
+      
+      <p> Ruby on Rails </p>
       
 1. Open a terminal as ctrl+alt+t
     

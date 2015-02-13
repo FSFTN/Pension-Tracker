@@ -22,7 +22,7 @@ Hello,
       rake db:migrate
 7.Finally you have to run your rails server. Defaultly it allocates the port as 3000
       rails s
-If any problem occured please feel free to post your comments. It makes us to improve this project
+          These are the steps to Run our project.We hope there is no issues in running this.If any problem occured please feel free to post your comments. It makes us to improve this project
     
   
 

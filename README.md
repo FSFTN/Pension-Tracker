@@ -19,7 +19,7 @@ Hello,
 
 4. After installing Ruby on Rails you have to clone the project from git 
 	
-	git clone cloned-url
+	git clone https://github.com/FSFTN/Pension-Tracker
   
     it will take a minute to clone
 5. Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed for the project
@@ -31,6 +31,7 @@ Hello,
 7.Finally you have to run your rails server. Defaultly it allocates the port as 3000
     
   		rails s
+8.Open your browser and see the output in the port address localhost:3000
          
 	
  These are the steps to Run our project.We hope there is no issues in running this.If any problem occured please feel free to post your comments. It makes us to improve this project

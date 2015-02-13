@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pran_no: MyString
+  employee_name: MyString
+  employee_id: MyString
+  nlc_no: MyString
+  pay_date: 2015-02-13
+  remarks: MyText
+
+two:
+  pran_no: MyString
+  employee_name: MyString
+  employee_id: MyString
+  nlc_no: MyString
+  pay_date: 2015-02-13
+  remarks: MyText

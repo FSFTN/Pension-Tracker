@@ -1,13 +1,18 @@
-<%= form_for(@employee) do |f| %>
+<%= form_for(@employee), :html => { :class => "form-horizontal employee" }  do |f| %>
   <% if @employee.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="panel panel-danger">
+    <div class="panel-heading">
+
       <h2><%= pluralize(@employee.errors.count, "error") %> prohibited this employee from being saved:</h2>
+      </div>
+      <div class="panel-body">
 
       <ul>
       <% @employee.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
+      </div>
     </div>
   <% end %>
 

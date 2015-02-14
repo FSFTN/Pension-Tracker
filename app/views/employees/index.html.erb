@@ -2,7 +2,7 @@
 
 <h1>Listing Employees</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Pran no</th>
@@ -24,9 +24,9 @@
         <td><%= employee.nlc_no %></td>
         <td><%= employee.pay_date %></td>
         <td><%= employee.remarks %></td>
-        <td><%= link_to 'Show', employee %></td>
-        <td><%= link_to 'Edit', edit_employee_path(employee) %></td>
-        <td><%= link_to 'Destroy', employee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', employee ,:class => "btn btn-success"%></td>
+        <td><%= link_to 'Edit', edit_employee_path(employee) ,:class => "btn btn-primary"%></td>
+        <td><%= link_to 'Destroy', employee, method: :delete, data: { confirm: 'Are you sure?' } ,:class => "btn btn-danger"%></td>
       </tr>
     <% end %>
   </tbody>
@@ -34,10 +34,10 @@
 
 <br>
 
-<%= link_to 'New Employee', new_employee_path %>
+<%= link_to 'New Employee', new_employee_path ,:class => "btn btn-primary pull-right"%>
 
 <p>
-  Download:
-  <%= link_to "CSV", employees_path(format: "csv") %> |
-  <%= link_to "Excel", employees_path(format: "xls") %>
+  Download as
+  <%= link_to "CSV", employees_path(format: "csv") ,:class => "btn btn-success"%> 
+  <%= link_to "Excel", employees_path(format: "xls") ,:class => "btn btn-success"%>
 </p>

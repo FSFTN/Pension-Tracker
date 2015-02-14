@@ -9703,3 +9703,710 @@ Started GET "/" for 127.0.0.1 at 2015-02-13 20:35:58 +0530
 Processing by HomepagesController#home as HTML
   Rendered homepages/home.html.erb within layouts/application (11.1ms)
 Completed 200 OK in 5722ms (Views: 5685.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 21:26:53 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepagesController#home as HTML
+  Rendered homepages/home.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 8675ms (Views: 8605.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 21:27:02 +0530
+Processing by HomepagesController#home as HTML
+  Rendered homepages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 327ms (Views: 326.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:03 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:27:04 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 21:27:21 +0530
+Processing by HomepagesController#home as HTML
+  Rendered homepages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 291ms (Views: 289.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:22 +0530
+
+
+Started GET "/employees" for 127.0.0.1 at 2015-02-13 21:27:27 +0530
+Processing by EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.3ms)[0m  SELECT "employees".* FROM "employees"
+  Rendered employees/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 454ms (Views: 449.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/employees" for 127.0.0.1 at 2015-02-13 21:27:28 +0530
+Processing by EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.3ms)[0m  [1mSELECT "employees".* FROM "employees"[0m
+  Rendered employees/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 248ms (Views: 246.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:28 +0530
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:27:28 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:27:29 +0530
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+Processing by EmployeesController#new as HTML
+  Rendered employees/_form.html.erb (275.8ms)
+  Rendered employees/new.html.erb within layouts/application (316.2ms)
+Completed 200 OK in 574ms (Views: 559.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:40 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:27:41 +0530
+
+
+Started POST "/employees/new" for 127.0.0.1 at 2015-02-13 21:27:57 +0530
+
+ActionController::RoutingError (No route matches [POST] "/employees/new"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/aravinth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/aravinth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/aravinth/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (16.1ms)
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (2.2ms)
+  Rendered /home/aravinth/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (151.8ms)
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-02-13 21:28:17 +0530
+Processing by EmployeesController#new as HTML
+  Rendered employees/_form.html.erb (16.3ms)
+  Rendered employees/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 317ms (Views: 315.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:28:18 +0530
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-02-13 21:28:57 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EmployeesController#new as HTML
+  Rendered employees/_form.html.erb (48.8ms)
+  Rendered employees/new.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 576ms (Views: 532.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:58 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:28:59 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:28:59 +0530
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+Processing by EmployeesController#new as HTML
+  Rendered employees/_form.html.erb (11.7ms)
+  Rendered employees/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 300ms (Views: 298.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:29:01 +0530
+
+
+Started GET "/employees/new" for 127.0.0.1 at 2015-02-13 21:29:02 +0530
+Processing by EmployeesController#new as HTML
+  Rendered employees/_form.html.erb (10.3ms)
+  Rendered employees/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 305ms (Views: 303.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:29:03 +0530
+
+
+Started GET "/employees/" for 127.0.0.1 at 2015-02-13 21:29:08 +0530
+Processing by EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.4ms)[0m  SELECT "employees".* FROM "employees"
+  Rendered employees/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 311ms (Views: 309.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application-076083b5fe96219aa27b601076fa8fa7.css?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/turbolinks-da8ddad9c2c5483d4c5c30c1ce325253.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/employees-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/homepages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/static_pages-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/application-0be1c943b19fb400ef9bd92e01041ea9.js?body=1" for 127.0.0.1 at 2015-02-13 21:29:09 +0530
+
+
+Started GET "/assets/India-Post-LOGO-4c2ba764e5ddbe5a1425d301a60bfebb.jpg" for 127.0.0.1 at 2015-02-13 21:29:09 +0530

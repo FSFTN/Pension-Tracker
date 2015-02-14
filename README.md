@@ -14,15 +14,25 @@ Running the project
 
 1. Open a terminal
 2. Clone the repository using
+
 	git clone https://github.com/FSFTN/Pension-Tracker
+
 3. Change your working directory
+
 	cd Pension-Tracker
+
 4. Run bundler to install required gems
+
 	bundle install
+
 5. Migrate the databases
+
 	rake db:migrate
+
 6. Run the rails server
+
 	rails s
+
 7. Open your browser and see the output at localhost:3000
          
 	

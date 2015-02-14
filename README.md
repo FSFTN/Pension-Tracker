@@ -1,44 +1,29 @@
 Hello,
 
-  This Project is created for Postal Department to maintain the complete database of Employees regarding their Salary allounces.
+  This Project is created for Postal Department to maintain the complete database of Employees regarding their Salary allowances.
   
-  Here we created the project in
-      Ruby on Rails 
+This project is created using Ruby on Rails. Here are the steps to run this project.
+
+Prerequisites
+
+1. Ruby 2.2 or above
+2. Rails 4.2 or above
+3. postgresql-server-dev-9.3 or above
       
-1. Open a terminal as ctrl+alt+t
-    
-2. Steps to Install Ruby on Rails
-    
- Follow this guide properly to install RoR in your Local machine
-	
-	http://guides.rubyonrails.org/getting_started.html
+Running the project
 
-3. Choose your File Location where you want to save the cloned project
-
-	cd File/to/write
-
-4. After installing Ruby on Rails you have to clone the project from git 
-	
+1. Open a terminal
+2. Clone the repository using
 	git clone https://github.com/FSFTN/Pension-Tracker
-  
-    it will take a minute to clone
-5. Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed for the project
-   
-  		 bundle install
-6. Then, you have to migrate your files to databases. For that type the command as
-   
-   		rake db:migrate
-7.Finally you have to run your rails server. Defaultly it allocates the port as 3000
-    
-  		rails s
-8.Open your browser and see the output in the port address localhost:3000
+3. Change your working directory
+	cd Pension-Tracker
+4. Run bundler to install required gems
+	bundle install
+5. Migrate the databases
+	rake db:migrate
+6. Run the rails server
+	rails s
+7. Open your browser and see the output at localhost:3000
          
 	
- These are the steps to Run our project.We hope there is no issues in running this.If any problem occured please feel free to post your comments. It makes us to improve this project
-    
-  
-
-
-
-Pension-Tracker
-Rails application for Postal department
+These are the steps to run this project.We hope there is no issues in running this.If any problem occured please feel free to create an issue in the repo issues page. It will help us to improve this project.

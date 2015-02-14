@@ -15,7 +15,7 @@ Running the project
 1. Open a terminal
 2. Clone the repository using
 
-	git clone https://github.com/FSFTN/Pension-Tracker
+	git clone https://github.com/FSFTN/Pension-Tracker.git
 
 3. Change your working directory
 

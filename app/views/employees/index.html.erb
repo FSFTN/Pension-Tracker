@@ -35,3 +35,9 @@
 <br>
 
 <%= link_to 'New Employee', new_employee_path %>
+
+<p>
+  Download:
+  <%= link_to "CSV", employees_path(format: "csv") %> |
+  <%= link_to "Excel", employees_path(format: "xls") %>
+</p>

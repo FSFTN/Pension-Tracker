@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Worksheet ss:Name="Sheet1">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">PRAN_NO</Data></Cell>
+        <Cell><Data ss:Type="String">EMPLOYEE_NAME</Data></Cell>
+        <Cell><Data ss:Type="String">EMPLOYEE_ID</Data></Cell>
+        <Cell><Data ss:Type="String">NLC_NO</Data></Cell>
+        <Cell><Data ss:Type="String">PAY_DATE</Data></Cell>
+        <Cell><Data ss:Type="String">REMARKS</Data></Cell>
+      </Row>
+    <% @employees.each do |employee| %>
+      <Row>
+        <Cell><Data ss:Type="string"><%= employee.pran_no %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= employee.employee_name %></Data></Cell>
+        <Cell><Data ss:Type="String"><%= employee.employee_id %></Data></Cell>
+        <Cell><Data ss:Type="string"><%= employee.nlc_no %></Data></Cell>
+        <Cell><Data ss:Type="date"><%= employee.pay_date %></Data></Cell>
+        <Cell><Data ss:Type="string"><%= employee.remarks %></Data></Cell>
+      </Row>
+    <% end %>
+    </Table>
+  </Worksheet>
+</Workbook>
